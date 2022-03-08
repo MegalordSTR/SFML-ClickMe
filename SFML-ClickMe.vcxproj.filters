@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Node">
+      <UniqueIdentifier>{88f36852-4ce1-44fb-88be-d091a2fe7288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State">
+      <UniqueIdentifier>{1f1f3047-a8fd-47c6-b4d7-6b8be7d66c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource">
+      <UniqueIdentifier>{fc3aa766-ce4d-44ab-a82d-28a2314c028c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node">
+      <UniqueIdentifier>{fe447624-3cd5-4b9c-8563-223ab3e4b455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State">
+      <UniqueIdentifier>{dc874221-a7f9-4b28-ae7d-88c208bdc436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource">
+      <UniqueIdentifier>{376650ec-d18d-416f-8cb6-3ca79c73b684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Bubbles">
+      <UniqueIdentifier>{a40db5ce-4471-4ed1-83b5-fe4daba584b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Media\Sansation.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Source Files\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundNode.cpp">
+      <Filter>Source Files\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleNode.cpp">
+      <Filter>Source Files\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="StateStack.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="TextNode.cpp">
+      <Filter>Source Files\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Source Files\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="StateIdentifiers.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="StateStack.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleNode.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundNode.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceIdentifiers.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourseHolder.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="FontConsts.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="TextNode.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="CategoryIdentifiers.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\pop3.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Media\pop.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Media\pop1.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Media\pop2.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Media\Bubbles\Bubble - Black.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\Bubbles\Bubble - Blue.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\Bubbles\Bubble - Green.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\Bubbles\Bubble - Orange.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\Bubbles\Bubble - Purple.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\Bubbles\Bubble - Red.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\Bubbles\Bubble - White.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\Bubbles\Bubble - Yellow.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\corona_up.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\heart_empty_16x16.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+    <Image Include="Media\heart_full_16x16.png">
+      <Filter>Resource Files\Bubbles</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
